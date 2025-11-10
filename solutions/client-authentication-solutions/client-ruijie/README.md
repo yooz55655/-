@@ -89,6 +89,10 @@ mentohust 已有十余年历史，部分功能可能已经不可用于当前系�
 ```
 - [校园网网页认证环境下基于OpenWRT的路由器选型与解决方案（锐捷）](https://zhuanlan.zhihu.com/p/953514481) 作者：全能全知者 [个人主页](https://www.zhihu.com/people/quan-neng-quan-zhi-zhe-11)
 - [MentoHust在Google的源码](https://code.google.com/archive/p/mentohust/)（需要科学上网）
+- [校园网锐捷认证破解(mentohust)：《从编译到多拨》](https://qiedd.com/338.html) 作者：Lordpenguindd（企鹅大大） [个人主页](https://qiedd.com/author/lordpenguindd)
+```
+内容较为完整、详尽。
+```
 
 ## 2.MiniEAP
 
@@ -234,6 +238,7 @@ OpenWrt/LEDE LuCI for minieap
 ```
 
 - [编译并使用 minieap 实现路由器锐捷认证上网](https://www.cnblogs.com/Undefined443/p/18375072) 作者：Undefined443 [个人主页](https://www.cnblogs.com/Undefined443)
+
 
 
 
