@@ -7,15 +7,16 @@
 ## 1.MentoHust
 
 ### 1.1插件下载
-- [链接1](https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk) 作者：KyleRicardo [GitHub主页](https://github.com/KyleRicardo)
-- [链接2](https://www.right.com.cn/forum/thread-196317-1-1.html) 作者：bishuiwuhen [恩山无线论坛主页](https://www.right.com.cn/forum/space-uid-249539.html)
-- [链接3](https://github.com/sbwml/luci-app-mentohust) 作者：sbwml [GitHub主页](https://github.com/sbwml)
+- [链接1](https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk) 作者：KyleRicardo [个人主页](https://github.com/KyleRicardo)
+- [链接2](https://www.right.com.cn/forum/thread-196317-1-1.html) 作者：bishuiwuhen [个人主页](https://www.right.com.cn/forum/space-uid-249539.html)
+- [链接3](https://github.com/sbwml/luci-app-mentohust) 作者：sbwml [个人主页](https://github.com/sbwml)
 
 ---
 
-### 1.2mentohust 介绍
+### 1.2MentoHust 介绍
 
 #### 1.2.1前置和安装包的说明
+
 - 前置依赖：libpcap
 - 推荐安装ttyd：包含libpcap，终端在网页就能执行命令
 
@@ -27,7 +28,7 @@ luci-app-mentohust.ipk 本体
 luci-i18n-mentohust-zh-cn.ipk 中文操作界面（可选）
 ```
 
-#### 1.2.2mentohust 如何使用命令操作
+#### 1.2.2MentoHust 如何使用命令操作
 
 ```
 
@@ -71,12 +72,99 @@ mentohust -u123456789 -p88888888 -neth0 -a1 -b1 -w
 
 ---
 
+#### 1.2.3MentoHust 相关参考链接
+- [锐捷多拨](https://github.com/tkkcc/mentohust) 作者：tkkcc [个人主页](https://github.com/tkkcc)
+- 
 ## 2.MiniEAP
 
 ### 2.1插件下载
-- [链接1](https://github.com/updateing/minieap) 作者：updateing [GitHub主页](https://github.com/updateing)
-- [链接2]() 作者： [主页]()
-- [链接3]() 作者： [主页]()
+- [链接1](https://github.com/updateing/minieap) 作者：updateing [个人主页](https://github.com/updateing)
+
+```
+需自行编译
+```
+
+- [链接2](https://github.com/AutoCONFIG/minieap-openwrt) 作者：AutoCONFIG [个人主页](https://github.com/AutoCONFIG)
+
+```
+仅有部分架构，其余仍需自行编译
+
+Glibc：采用glibc运行库
+Musl：采用musl运行库
+默认下载musl版本
+
+aarch64：兼容全部aarch64架构（Rockchip/IPQ/部分MediaTek等ARMv8及后续64位Arm处理器）
+mipsel: 兼容全部mipsel架构（MediaTek MT7620/MT7621/MT7628等）
+x86_64: 兼容x86_64处理器（amd64）
+```
+
+- [链接3](https://github.com/LightWind1/minieap) 作者：LightWind1 [个人主页](https://github.com/LightWind1)
+
+```
+需自行编译
+```
+
+- [链接4](https://www.right.com.cn/forum/thread-4106567-1-1.html) 作者：你家臭狗屎 [个人主页](https://www.right.com.cn/forum/space-uid-682003.html)
+
+```
+注：可能与链接3为同一作者
+
+这里不提供MiniEAP图形配置界面支持，感谢理解。关于MiniEAP图形配置，目前的几乎所有的MiniEAP图形配置工具都可以与之完美兼容，可以自行编译或者找相关帖子解决。
+
+如有问题，欢迎恩山私信互动或者B站私信
+
+目前支持平台：x86_generic/x86-64/mt76x8/mt7621/mt7620/armv8(aarch64)/armv7/ipq60xx/bcm53xx
+
+声明：承诺没有加入任何后门
+
+如果这里没有支持您的设备，欢迎自己编译，也可以留言反馈，后续会更新上（可能要等一到两天）
+```  
+
+- [链接5](https://github.com/kongfl888/openwrt-minieap) 作者：kongfl888 [个人主页](https://github.com/kongfl888)
+
+```
+minieap for OpenWrt
+需自行编译
+```
+
+### 2.2MiniEAP 介绍
+
+#### 2.2.1前置和安装包的说明
+
+- 大部分依赖系统已预装
+- 可能需要 libdl
+
+```
+luci-app-minieap Web界面插件
+依赖包含
+luci-base
+luci-lib-jsonc
+luci-compat
+```
+
+#### 2.2.2MiniEAP 详细介绍
+
+#### 2.2.3MiniEAP 相关参考链接
+- [LuCI for minieap](https://github.com/kongfl888/luci-app-minieap) 作者：kongfl888 [个人主页](https://github.com/kongfl888)
+
+```
+OpenWrt/LEDE LuCI for minieap
+！锐捷服务名为中文时无法使用，请等待自定义配置文件功能启用！
+本软件包是 minieap 的 LuCI界面
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
