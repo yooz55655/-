@@ -22,11 +22,14 @@
 
  3. **[网页认证](https://github.com/yooz55655/Campus-Net-Savior/tree/main/solutions/web-authentication-solutions)**  
    针对网页认证方式进行通用方案适配。
+```
+包含 nettask、autoshell
+```
    
- 4. **[其他认证](https://github.com/yooz55655/Campus-Net-Savior/tree/main/solutions/other-authentication-solutions)**  
+ 5. **[其他认证](https://github.com/yooz55655/Campus-Net-Savior/tree/main/solutions/other-authentication-solutions)**  
    针对其他方式进行通用方案适配。
 
- 5. **[认证插件集合](https://github.com/yooz55655/Campus-Net-Savior/tree/main/solutions/auth-plugin-collection)**  
+ 6. **[认证插件集合](https://github.com/yooz55655/Campus-Net-Savior/tree/main/solutions/auth-plugin-collection)**  
    应用于OpenWrt的主流校园网认证插件集合。
 
    ---
